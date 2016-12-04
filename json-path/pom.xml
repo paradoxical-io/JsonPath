@@ -9,6 +9,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>json-path</artifactId>
+    <version>2.3-experimental${revision}</version>
+
+    <name>json-path (experimental)</name>
+    <description>Experimental features build of json-path</description>
+    <url>https://github.com/paradoxical-io/JsonPath</url>
+
+    <scm>
+        <url>https://github.com/paradoxical-io/JsonPath</url>
+        <connection>scm:gitgit@github.com:paradoxical-io/JsonPath.git</connection>
+        <developerConnection>scm:git:git@github.com:paradoxical-io/JsonPath.git</developerConnection>
+    </scm>
 
     <dependencyManagement>
         <dependencies>
