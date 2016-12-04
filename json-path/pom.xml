@@ -9,7 +9,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>json-path</artifactId>
-    <version>2.3-experimental${revision}</version>
+    <version>2.3-experimental-1${revision}</version>
 
     <name>json-path (experimental)</name>
     <description>Experimental features build of json-path.</description>
