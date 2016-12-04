@@ -12,7 +12,7 @@
     <version>2.3-experimental${revision}</version>
 
     <name>json-path (experimental)</name>
-    <description>Experimental features build of json-path</description>
+    <description>Experimental features build of json-path.</description>
     <url>https://github.com/paradoxical-io/JsonPath</url>
 
     <scm>
