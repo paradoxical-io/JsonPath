@@ -11,6 +11,8 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
@@ -70,7 +72,8 @@ public class RegexpEvaluatorTest extends BaseTest {
     }
 
     private Predicate.PredicateContext createPredicateContext() {
-        return createPredicateContext(Maps.newHashMap());
+        final Map<Object, Object> check = new HashMap<Object, Object>();
+        return createPredicateContext(check);
     }
 
 }
