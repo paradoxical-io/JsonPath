@@ -6,6 +6,8 @@ git:
   submodules: false
 before_install:
 - git submodule update --init --remote --recursive
+install: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+script: mvn test
 after_success:
 - "./.deployment/deploy.sh"
 env:
